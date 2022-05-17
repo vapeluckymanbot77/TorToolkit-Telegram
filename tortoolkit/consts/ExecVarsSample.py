@@ -5,20 +5,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "9c3a5bfbd88818897423f1a635f38dbb"
+        API_ID = 17643310
+        BOT_TOKEN = "5295750954:AAHk_5iEkxSwbgSihXTv3yvjbbVq6iW3uaQ"
+        BASE_URL_OF_BOT = "https://samanproject11.herokuapp.com/"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [621784715,-1001628825626,-1001586627734]
+        OWNER_ID = 621784715
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = True
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -36,10 +36,11 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        #DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        #DB_URI = "postgresql://postgres:cGI4ghDA2MZTnX1BmUhn@containers-us-west-50.railway.app:7416/railway"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        DB_URI = "postgresql://postgres:cGI4ghDA2MZTnX1BmUhn@containers-us-west-50.railway.app:7416/railway"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
@@ -65,7 +66,7 @@ except:
         RCLONE_CONFIG = False
         
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "edu bot 4"
 
         # Max size of a playlist that is allowed (Number of videos)
         MAX_YTPLAYLIST_SIZE = 20
@@ -84,7 +85,7 @@ except:
         USETTINGS_IN_PRIVATE = False
 
         # Torrent max time to collect metadata in seconds
-        TOR_MAX_TOUT = 180
+        TOR_MAX_TOUT = 30
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
@@ -99,9 +100,3 @@ except:
         FAST_UPLOAD = True
         METAINFO_BOT = False
         EXPRESS_UPLOAD = True
-        
-
-
-
-
-
