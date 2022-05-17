@@ -5,17 +5,17 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "9c3a5bfbd88818897423f1a635f38dbb"
+        API_ID = 17643310
+        BOT_TOKEN = "5295750954:AAHk_5iEkxSwbgSihXTv3yvjbbVq6iW3uaQ"
+        BASE_URL_OF_BOT = "https://kakamamaji1.herokuapp.com/"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [621784715,-1001628825626,-1001586627734]
+        OWNER_ID = 621784715
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgresql://postgres:cGI4ghDA2MZTnX1BmUhn@containers-us-west-50.railway.app:7416/railway"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -75,7 +75,7 @@ except:
         RCLONE_BASE_DIR = "/"
         
         # Set this value to show all the remotes while leeching
-        SHOW_REMOTE_LIST = False
+        SHOW_REMOTE_LIST = True
         
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
@@ -101,10 +101,10 @@ except:
         MAX_DL_LINK_SIZE = 10
 
         # SA Account Enable/Disable. Read the readme.md before using this feature.
-        ENABLE_SA_SUPPORT_FOR_GDRIVE = False
+        ENABLE_SA_SUPPORT_FOR_GDRIVE = True
         SA_FOLDER_ID = ""
-        SA_TD_ID = ""
-        SA_ACCOUNTS_FOLDER = ""
+        SA_TD_ID = "0AH5eQy1NUC2_Uk9PVA"
+        SA_ACCOUNTS_FOLDER = "accounts"
         SA_ZIP_FILE = False
 
         SA_ACCOUNT_NUMBER = 0
@@ -149,9 +149,3 @@ except:
         FAST_UPLOAD = True
         METAINFO_BOT = False
         EXPRESS_UPLOAD = True
-        
-
-
-
-
-
